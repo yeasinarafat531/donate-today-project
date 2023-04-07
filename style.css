@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 100px;
+}
+.header-text{
+    text-align: center;
+    padding-top: 150px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.btn-primary{
+    color: white;
+    font-size: 700;
+    font-size: 18px;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #FF5959;
+}
+/* Donate Today Section */
+.donate-section{
+    text-align: center;
+}
+.donate-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+}
+.donate-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.amount-title{
+    font-size: 22px;
+    color: #707070;
+    /* border: 1px solid #121212; */
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 30px;
+    border-style: none;
+}
+.amount-title-highlight{
+    font-size: 22px;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+    padding: 30px;
+    /* text-align: center;
+    justify-content: center; */
+}
+.amount-other{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #707070;
+}
+hr{
+    color: #707070;
+    margin-bottom: 20px;
+}
+/* Donate Plan Section */
+.donate-plan-section{
+    
+}
+.donate-plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+    margin-top: 100px;
+}
+.donate-plan-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/* donate plan */
+.donate-plan{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+/* donate food */
+.donate-food{
+    background-color: rgba(79, 157, 166, 0.1);;
+    padding: 40px;
+    border-radius: 5px;
+}
+.donate-food img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-food h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.donate-food p{
+    color: #707070;
+}
+/* donate shelter */
+.donate-shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 40px;
+    border-radius: 5px;
+}
+.donate-shelter img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-shelter h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.donate-shelter p{
+    color: #707070;
+}
+/* donate education */
+.donate-education{
+    background-color: #FFF4D6;
+    padding: 40px;
+    border-radius: 5px;
+}
+.donate-education img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-education h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.donate-education p{
+    color: #707070;
+}
+/* your donation section */
+.your-donation-section{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.your-donation-section img{
+    height: 400px;
+    /* width: 500px; */
+}
+.your-donation{
+
+}
+.your-donation-title{
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.your-donation-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+/* Update section */
+.update-section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+.update-title{
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.update-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.update-input{
+    background-color: #FFF4D6;
+    padding: 80px;
+    margin: 0px 200px;
+    border-radius: 5px;
+}
+.update-input input{}
+.form-email{
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    font-size: 700;
+    font-size: 18px;
+}
+/* footer */
+.footer-humble{
+    text-align: center;
+    background-color: black;
+    padding: 80px 0px;
+}
+.footer-title{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
